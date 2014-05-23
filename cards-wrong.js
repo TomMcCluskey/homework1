@@ -1,6 +1,9 @@
 // Simple version (no error-detection)
 
 // function()--> possible return values
+// This is the result of not reading the instructions closely enough.
+// The assumption is that the cards are sorted by suit, then value,
+// rather than value, then suit, as the instructions require.
 
 function rank(card) { // --> 1..13
     while (card > 13)
